@@ -1,0 +1,48 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "nuxt",
+    "stage": "NODE_ENV=staging nuxt build",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate:stage": "NODE_ENV=staging nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "analyze": "nuxt build --analyze"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "aos": "^2.3.4",
+    "autosize": "^4.0.2",
+    "core-js": "^3.19.1",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.15.8",
+    "nuxt-custom-headers": "^2.1.0",
+    "nuxt-i18n": "^6.15.4",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "raw-loader": "^4.0.2",
+    "responsive-loader": "^2.3.0",
+    "stats.js": "^0.17.0",
+    "typograf": "^6.14.0",
+    "validate.js": "^0.13.1",
+    "vue-observe-visibility": "^1.0.0",
+    "vue-resize": "^0.5.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.5.0",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+:root {
+  --vh: 1vh;
+  --root-font-size: 0.695vw;
+  --root-layout-offset: 16rem;
+  --root-color-bg: #fff;
+  --root-color-light: #A6A6A6;
+  --root-color-text: #505050;
+  --root-color-red: #FB3640;
+  --root-color-dark: #15122B;
+  --root-color-dark-rgb: 21, 18, 43;
+  --root-color-midnight: #2A2456;
+  --root-color-ivory: #F7F5FB;
+  @include down(md) {
+    --root-font-size: 2.67vw;
+    --root-layout-offset: 3.2rem;
+  }
+}
