@@ -9,13 +9,12 @@ const generate = require('./configs/generate.js').default
 generate.dir = process.env.DIST
 
 export default {
-  ssr: true,
+  ssr: false,
   globalName: 'app',
   components: false,
   loading: false,
 
   head: require('./configs/head.js'),
-  i18n: require('./configs/i18n.js').default,
   server: require('./configs/server.js').default,
   router: require('./configs/router.js').default,
 
